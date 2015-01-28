@@ -1,0 +1,45 @@
+{
+  "name": "ejs-extra",
+  "description": "Embedded JavaScript templates with extra capabilities",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rodzewich/node-ejs-extra",
+  "author": {
+    "name": "Oleg Rodzewich",
+    "url": "https://github.com/rodzewich"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodzewich/node-ejs-extra.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodzewich/node-ejs-extra/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rodzewich/node-ejs-extra/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.25"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-tsc": "^1.0.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "files": [
+    "bin",
+    "tasks",
+    "LICENSE"
+  ]
+}
